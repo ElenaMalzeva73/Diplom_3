@@ -23,13 +23,12 @@ public class RegisterPage {
     //Локатор кнопки "Зарегистрироваться" страницы "Регистрация"
     private final By registerFieldLocatorBlockRegistration = By.xpath("//button[@class = 'button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa' and text() = 'Зарегистрироваться']");
     //Локатор поля "Войти" страницы "Регистрация"
-    private final By signInFieldLocator = By.xpath("//button[text()='Войти']");//"//a[@class = 'Auth_link__1fOlj' and text()='Войти']");
+    private final By signInFieldLocator = By.xpath("//button[text()='Войти']");
     //Локатор поля "Войти" страницы "Восстановление пароля"
-    private final By signInFieldLocatorPasswordRecovery = By.xpath("//a[@class = 'Auth_link__1fOlj' and text()='Войти']");//"//button[text()='Войти']");//"//a[@class = 'Auth_link__1fOlj' and text()='Войти']");
+    private final By signInFieldLocatorPasswordRecovery = By.xpath("//a[@class = 'Auth_link__1fOlj' and text()='Войти']");
     //Локатор надписи "Некорректный пароль"
     private final By incorrectPasswordFieldLocator = By.xpath("//p[@class='input__error text_type_main-default']");
     // Локатор логотипа "Stellar Burgers"
-    private final By logoLocator = By.xpath("//div[@class = 'AppHeader_header__logo__2D0X2']");
 
     WebDriver webDriver;
     boolean isDisplayed;
@@ -78,16 +77,6 @@ public class RegisterPage {
     @Step("клик на  поле 'Войти' странице 'Восстановления пароля'")
     public void clickSignInFieldLocator() {
         webDriver.findElement(signInFieldLocator).click();
-    }
-    @Step("Скролл до поля 'Зарегистрироваться' ")
-    public void scrollToLogo() {
-        WebElement element = webDriver.findElement(logoLocator);
-        ((JavascriptExecutor)webDriver).executeScript("arguments[0].scrollIntoView();", element);
-
-    }
-    @Step("клик на  Логотип странице 'Зарегистрироваться'")
-    public void clickLogoLocator() {
-        webDriver.findElement(logoLocator).click();
     }
 
 }

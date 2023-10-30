@@ -26,8 +26,6 @@ public class MainPage {
     private final By fillingsButtonLocator = By.xpath("//*[text()='Начинки']");
     // Локатор логотипа "Stellar Burgers"
     private final By logoLocator = By.xpath("//div[@class = 'AppHeader_header__logo__2D0X2']");
-    // Локатор кнопки "Конструктор"
-    private final By constructorButtonLocator = By.xpath("//p[@class = 'AppHeader_header__linkText__3q_va ml-2']");
     WebDriver webDriver;
     boolean isDisplayed;
 
