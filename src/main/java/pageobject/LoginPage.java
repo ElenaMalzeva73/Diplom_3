@@ -1,9 +1,7 @@
 package pageobject;
 
 import io.qameta.allure.Step;
-import  org.junit.Assert.*;
 import org.junit.Assert;
-//import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

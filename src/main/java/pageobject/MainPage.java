@@ -11,7 +11,7 @@ public class MainPage {
     //Локатор кнопки "Личный кабинет"
     private final By personalButtonLocator = By.xpath(".//p[text()='Личный Кабинет']");
     //Локатор кнопки "Оформить заказ"
-    private final By makeOrderButtonLocator = By.xpath("//button[contains(text(),'Оформить заказ')]");
+    private final By makeOrderButtonLocator = By.xpath(".//button[contains(text(),'Оформить заказ')]");
     //Локатор кнопки "Булки"
     private final By bunsButtonLocator = By.xpath("//div[span[text()='Булки']]");
     //Локатор кнопки "Булки" активная
@@ -21,7 +21,7 @@ public class MainPage {
     //Локатор кнопки "Соусы" активная
     private final By activeSaucesButtonLocator = By.xpath("//span[text()='Соусы']");
     //Локатор кнопки "Начинки" активная
-     private final By activeFillingsButtonLocator = By.xpath("//span[text()='Начинки']");//("//div[@class = 'tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect' end text() = 'Начинки']");
+     private final By activeFillingsButtonLocator = By.xpath("//span[text()='Начинки']");
     //Локатор кнопки "Начинки"
     private final By fillingsButtonLocator = By.xpath("//*[text()='Начинки']");
     // Локатор логотипа "Stellar Burgers"

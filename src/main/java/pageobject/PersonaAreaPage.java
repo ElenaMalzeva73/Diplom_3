@@ -11,7 +11,7 @@ public class PersonaAreaPage  {
     // Локатор кнопки "Конструктор"
     private final By constructorButtonLocator = By.xpath("//p[text()='Конструктор']");
     // Локатор кнопки "Выход"
-    private final By exitButtonLocator = By.xpath("//button[text()='Выход']");
+    private final By exitButtonLocator = By.xpath(".//button[text()='Выход']");
     // Локатор поле "Соберите бургер"
     private final By assembleTheBurgerFieldLocator = By.xpath("//h1[@class='text text_type_main-large mb-5 mt-10']");
     WebDriver webDriver;
