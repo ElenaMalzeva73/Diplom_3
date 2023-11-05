@@ -1,0 +1,5 @@
+tests\CheckingUserRegistrationTest.class
+tests\PersonalAccountPageTest.class
+tests\BaseData.class
+tests\RegisterPageTest.class
+tests\BurgerConstructorTest.class

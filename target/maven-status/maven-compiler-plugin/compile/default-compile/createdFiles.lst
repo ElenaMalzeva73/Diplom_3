@@ -1,0 +1,8 @@
+pageobject\PersonaAreaPage.class
+pageobject\MainPage.class
+pageobject\LoginPage.class
+data\User.class
+constant\Constant.class
+data\UserGenerator.class
+pageobject\RegisterPage.class
+data\CreateUser.class
